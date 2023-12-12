@@ -15,7 +15,7 @@ public class ToUseTheIdLocators {
 		Thread.sleep(2000);
 		driver.findElement(By.id("pass")).sendKeys("Sonu@000");
 		Thread.sleep(3000);
-		driver.findElement(By.id("u_0_5_As")).click();
+		driver.findElement(By.cssSelector("button[type='submit']")).click();
 		
 
 	}
