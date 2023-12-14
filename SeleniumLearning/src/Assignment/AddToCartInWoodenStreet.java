@@ -24,7 +24,7 @@ public class AddToCartInWoodenStreet {
 		driver.findElement(By.linkText("Sofas")).click();
 		driver.findElement(By.xpath("//p[text()='Wooden Sofa Sets']")).click();	
 		driver.findElement(By.linkText("Winster 3 Seater Printed Fabric Wooden Sofa (Honey Cream Checkered)")).click();
-		WebElement add = driver.findElement(By.id("plus"));
+		//WebElement add = driver.findElement(By.id("plus"));
 		//Actions action=new Actions(driver);
 		//action.doubleClick(add).perform();
 		driver.findElement(By.xpath("//h1[text()='Winster 3 Seater Printed Fabric Wooden Sofa ']/..//a[@id='button-cart-buy-now']")).click();
