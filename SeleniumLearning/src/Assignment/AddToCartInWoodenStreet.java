@@ -5,6 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
@@ -13,7 +14,7 @@ public class AddToCartInWoodenStreet {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		WebDriver driver=new FirefoxDriver();
+		WebDriver driver=new EdgeDriver();;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
 		
@@ -36,7 +37,7 @@ public class AddToCartInWoodenStreet {
 		driver.findElement(By.xpath("//h1[text()='Carolina Lounge Chair ']/..//a[@id='button-cart-buy-now']")).click();
 		
 		//item3
-		driver.findElement(By.partialLinkText(" Study & Office ")).click();
+		driver.findElement(By.xpath("//a[text()=' Study & Office ']")).click();
 		driver.findElement(By.xpath("(//img[@title='Study Tables'])[2]")).click();	
 		driver.findElement(By.xpath("(//a[text()='Calisto Engineered Wood Study Table (Exotic Teak Frosty White)'])[1]")).click();
 		driver.findElement(By.xpath("//h1[text()='Calisto Engineered Wood Study Table ']/..//a[@id='button-cart-buy-now']")).click();
