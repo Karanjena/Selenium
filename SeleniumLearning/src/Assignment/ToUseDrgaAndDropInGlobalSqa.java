@@ -42,6 +42,8 @@ public class ToUseDrgaAndDropInGlobalSqa {
 		WebElement droppable3 = driver.findElement(By.xpath("//div[@id='droppable-inner']"));
 		WebElement droppable4 = driver.findElement(By.xpath("//div[@id='droppable2']"));
 		WebElement droppable5 = driver.findElement(By.xpath("//div[@id='droppable2-inner']"));
+		
+		
 		action.dragAndDrop(ele3, droppable2).perform();
 		Thread.sleep(1000);
 		action.dragAndDrop(droppable2, droppable3).perform();
