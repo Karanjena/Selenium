@@ -19,7 +19,7 @@ public class QspiderDemoApp {
 
 		driver.get("https://demoapps.qspiders.com/?scenario=1");
 
-		// Register
+		    // Register
 		driver.findElement(By.id("name")).sendKeys("Karan Jena");
 		driver.findElement(By.id("email")).sendKeys("sonujena256@gmail.com");
 		driver.findElement(By.id("password")).sendKeys("Karan@000");
@@ -169,9 +169,8 @@ public class QspiderDemoApp {
 		WebElement DisabledButton10 = driver.findElement(By.id("btn19"));
 		System.out.println(DisabledButton10.isEnabled());
 		
-		
-		driver.findElement(By.linkText("Link")).click();
-		
+		//Link Button
+		driver.findElement(By.linkText("Link")).click(); 
 		///Bug in Deafult link
 		//Not Working Back
 		driver.findElement(By.linkText("Contact Us")).click();

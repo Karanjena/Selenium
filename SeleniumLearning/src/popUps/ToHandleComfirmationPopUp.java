@@ -22,8 +22,8 @@ public class ToHandleComfirmationPopUp {
 		
 		Alert confermationPOpup = driver.switchTo().alert();
 		System.out.println(confermationPOpup.getText());
-		confermationPOpup.accept();
-		//confermationPOpup.dismiss();
+		//confermationPOpup.accept();
+		confermationPOpup.dismiss();
 	}
 
 }
