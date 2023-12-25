@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[BaskinRobbins got executed]]>
+    </line>
+    <line>
+      <![CDATA[BaskinRobbins got executed]]>
+    </line>
+    <line>
+      <![CDATA[Cricbuzz got executed]]>
+    </line>
+    <line>
+      <![CDATA[Amazon got executed]]>
+    </line>
+    <line>
+      <![CDATA[Amazon got executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-24T20:26:19 GMT-08:00" name="Default suite" finished-at="2023-12-24T20:27:25 GMT-08:00" duration-ms="65836">
+    <groups>
+    </groups>
+    <test started-at="2023-12-24T20:26:19 GMT-08:00" name="Default test" finished-at="2023-12-24T20:27:25 GMT-08:00" duration-ms="65836">
+      <class name="advanceSelenium.ToLearnTextNg">
+        <test-method signature="baskinRobbins()[pri:0, instance:advanceSelenium.ToLearnTextNg@4b5d6a01]" started-at="2023-12-24T20:26:19 GMT-08:00" name="baskinRobbins" finished-at="2023-12-24T20:26:42 GMT-08:00" duration-ms="23384" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BaskinRobbins got executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- baskinRobbins -->
+        <test-method signature="baskinRobbins()[pri:0, instance:advanceSelenium.ToLearnTextNg@4b5d6a01]" started-at="2023-12-24T20:26:42 GMT-08:00" name="baskinRobbins" finished-at="2023-12-24T20:26:53 GMT-08:00" duration-ms="10353" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BaskinRobbins got executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- baskinRobbins -->
+        <test-method signature="cricbuzz()[pri:1, instance:advanceSelenium.ToLearnTextNg@4b5d6a01]" started-at="2023-12-24T20:26:53 GMT-08:00" name="cricbuzz" finished-at="2023-12-24T20:27:08 GMT-08:00" duration-ms="14949" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cricbuzz got executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cricbuzz -->
+        <test-method signature="amazon()[pri:3, instance:advanceSelenium.ToLearnTextNg@4b5d6a01]" started-at="2023-12-24T20:27:08 GMT-08:00" name="amazon" finished-at="2023-12-24T20:27:17 GMT-08:00" duration-ms="8997" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Amazon got executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method signature="amazon()[pri:3, instance:advanceSelenium.ToLearnTextNg@4b5d6a01]" started-at="2023-12-24T20:27:17 GMT-08:00" name="amazon" finished-at="2023-12-24T20:27:25 GMT-08:00" duration-ms="8061" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Amazon got executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+      </class> <!-- advanceSelenium.ToLearnTextNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
