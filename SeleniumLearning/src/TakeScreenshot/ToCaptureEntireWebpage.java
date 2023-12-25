@@ -20,6 +20,8 @@ public class ToCaptureEntireWebpage {
 	
 	driver.get("https://www.youtube.com/");
 	Thread.sleep(3000);
+	
+	//TakeScreenshot Entire Webpage
 	TakesScreenshot ts=(TakesScreenshot) driver;//type casting
 	File temp = ts.getScreenshotAs(OutputType.FILE);
 	File src = new File("./errorSorts/youtube.jpeg");

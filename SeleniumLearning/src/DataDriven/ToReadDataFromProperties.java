@@ -31,7 +31,9 @@ public class ToReadDataFromProperties {
 		
 		driver.get(url);
 		driver.findElement(By.id("email")).sendKeys(usernamne);
-		driver.findElement(By.id("pass")).sendKeys(password);
+		driver.findElement(By.id("pass")).sendKeys(password); 
+		
+		
 		
 		
 		
