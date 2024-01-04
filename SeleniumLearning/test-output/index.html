@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Karan\AppData\Local\Temp\testng-eclipse-2011474231\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Karan\git\Selenium1\SeleniumLearning\DemoWebShop.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,41 +93,125 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">20 methods, 2 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_010" class="method navigator-link" hash-for-method="toCheckWishlistPage">toCheckWishlistPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_010" class="method navigator-link" hash-for-method="toCheckWishlistPage">toCheckWishlistPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="advanceSelenium.ToLearnTextNg" class="method navigator-link" hash-for-method="amazon">amazon</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_004" class="method navigator-link" hash-for-method="toCheckApparel_ShoesPage">toCheckApparel_ShoesPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="advanceSelenium.ToLearnTextNg" class="method navigator-link" hash-for-method="amazon">amazon</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_004" class="method navigator-link" hash-for-method="toCheckApparel_ShoesPage">toCheckApparel_ShoesPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="advanceSelenium.ToLearnTextNg" class="method navigator-link" hash-for-method="baskinRobbins">baskinRobbins</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_001" class="method navigator-link" hash-for-method="toCheckBooksPage">toCheckBooksPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="advanceSelenium.ToLearnTextNg" class="method navigator-link" hash-for-method="baskinRobbins">baskinRobbins</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_001" class="method navigator-link" hash-for-method="toCheckBooksPage">toCheckBooksPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="advanceSelenium.ToLearnTextNg" class="method navigator-link" hash-for-method="cricbuzz">cricbuzz</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_002" class="method navigator-link" hash-for-method="toCheckComputerPage">toCheckComputerPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_002" class="method navigator-link" hash-for-method="toCheckComputerPage">toCheckComputerPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_005" class="method navigator-link" hash-for-method="toCheckDigitaldownloadsPage">toCheckDigitaldownloadsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_005" class="method navigator-link" hash-for-method="toCheckDigitaldownloadsPage">toCheckDigitaldownloadsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_003" class="method navigator-link" hash-for-method="toCheckElectronicsPage">toCheckElectronicsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_003" class="method navigator-link" hash-for-method="toCheckElectronicsPage">toCheckElectronicsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_007" class="method navigator-link" hash-for-method="toCheckGiftCardsPage">toCheckGiftCardsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_007" class="method navigator-link" hash-for-method="toCheckGiftCardsPage">toCheckGiftCardsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_006" class="method navigator-link" hash-for-method="toCheckJewelryPage">toCheckJewelryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_006" class="method navigator-link" hash-for-method="toCheckJewelryPage">toCheckJewelryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_009" class="method navigator-link" hash-for-method="toCheckShoppingcartPage">toCheckShoppingcartPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_009" class="method navigator-link" hash-for-method="toCheckShoppingcartPage">toCheckShoppingcartPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_008" class="method navigator-link" hash-for-method="toCheckTricentissPage">toCheckTricentissPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="advanceSelenium.TC_DWS_008" class="method navigator-link" hash-for-method="toCheckTricentissPage">toCheckTricentissPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -138,204 +222,1266 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">advanceSelenium.ToLearnTextNg</span>
+              <img src="failed.png"/>
+              <span class="class-name">advanceSelenium.TC_DWS_010</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="amazon">
-                  </a> <!-- amazon -->
-                  <span class="method-name">amazon</span>
+                  <a name="toCheckWishlistPage">
+                  </a> <!-- toCheckWishlistPage -->
+                  <span class="method-name">toCheckWishlistPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[text()=&apos;Wishlist&apos;]&quot;}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1778e8016da2fad8a297edec93e7f20, findElement {using=xpath, value=//h1[text()=&apos;Wishlist&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Karan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63081/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1778e8016da2fad8a297edec93e7f20
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at advanceSelenium.TC_DWS_010.toCheckWishlistPage(TC_DWS_010.java:14)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="amazon">
-                  </a> <!-- amazon -->
-                  <span class="method-name">amazon</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="baskinRobbins">
-                  </a> <!-- baskinRobbins -->
-                  <span class="method-name">baskinRobbins</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="baskinRobbins">
-                  </a> <!-- baskinRobbins -->
-                  <span class="method-name">baskinRobbins</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="cricbuzz">
-                  </a> <!-- cricbuzz -->
-                  <span class="method-name">cricbuzz</span>
+                  <a name="toCheckWishlistPage">
+                  </a> <!-- toCheckWishlistPage -->
+                  <span class="method-name">toCheckWishlistPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[text()=&apos;Wishlist&apos;]&quot;}
+  (Session info: MicrosoftEdge=120.0.2210.91)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b22fd6b23692d26b4225976b5c6f1eb5, findElement {using=xpath, value=//h1[text()=&apos;Wishlist&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.91, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63560}, msedge: {msedgedriverVersion: 120.0.2210.91 (f469d579f138..., userDataDir: C:\Users\Karan\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63560/devtoo..., se:cdpVersion: 120.0.2210.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b22fd6b23692d26b4225976b5c6f1eb5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at advanceSelenium.TC_DWS_010.toCheckWishlistPage(TC_DWS_010.java:14)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">advanceSelenium.TC_DWS_008</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckTricentissPage">
+                  </a> <!-- toCheckTricentissPage -->
+                  <span class="method-name">toCheckTricentissPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckTricentissPage">
+                  </a> <!-- toCheckTricentissPage -->
+                  <span class="method-name">toCheckTricentissPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">advanceSelenium.TC_DWS_004</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckApparel_ShoesPage">
+                  </a> <!-- toCheckApparel_ShoesPage -->
+                  <span class="method-name">toCheckApparel_ShoesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckApparel_ShoesPage">
+                  </a> <!-- toCheckApparel_ShoesPage -->
+                  <span class="method-name">toCheckApparel_ShoesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">advanceSelenium.TC_DWS_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckComputerPage">
+                  </a> <!-- toCheckComputerPage -->
+                  <span class="method-name">toCheckComputerPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckComputerPage">
+                  </a> <!-- toCheckComputerPage -->
+                  <span class="method-name">toCheckComputerPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">advanceSelenium.TC_DWS_006</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckJewelryPage">
+                  </a> <!-- toCheckJewelryPage -->
+                  <span class="method-name">toCheckJewelryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckJewelryPage">
+                  </a> <!-- toCheckJewelryPage -->
+                  <span class="method-name">toCheckJewelryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">advanceSelenium.TC_DWS_007</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckGiftCardsPage">
+                  </a> <!-- toCheckGiftCardsPage -->
+                  <span class="method-name">toCheckGiftCardsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckGiftCardsPage">
+                  </a> <!-- toCheckGiftCardsPage -->
+                  <span class="method-name">toCheckGiftCardsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">advanceSelenium.TC_DWS_005</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckDigitaldownloadsPage">
+                  </a> <!-- toCheckDigitaldownloadsPage -->
+                  <span class="method-name">toCheckDigitaldownloadsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckDigitaldownloadsPage">
+                  </a> <!-- toCheckDigitaldownloadsPage -->
+                  <span class="method-name">toCheckDigitaldownloadsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">advanceSelenium.TC_DWS_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckBooksPage">
+                  </a> <!-- toCheckBooksPage -->
+                  <span class="method-name">toCheckBooksPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckBooksPage">
+                  </a> <!-- toCheckBooksPage -->
+                  <span class="method-name">toCheckBooksPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">advanceSelenium.TC_DWS_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckElectronicsPage">
+                  </a> <!-- toCheckElectronicsPage -->
+                  <span class="method-name">toCheckElectronicsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckElectronicsPage">
+                  </a> <!-- toCheckElectronicsPage -->
+                  <span class="method-name">toCheckElectronicsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">advanceSelenium.TC_DWS_009</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckShoppingcartPage">
+                  </a> <!-- toCheckShoppingcartPage -->
+                  <span class="method-name">toCheckShoppingcartPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckShoppingcartPage">
+                  </a> <!-- toCheckShoppingcartPage -->
+                  <span class="method-name">toCheckShoppingcartPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Karan\AppData\Local\Temp\testng-eclipse-2011474231\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Karan\git\Selenium1\SeleniumLearning\DemoWebShop.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;advanceSelenium.ToLearnTextNg&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_008&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_007&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_009&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_010&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_002&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_001&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_004&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_003&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_006&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_005&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;EdgeTest&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_008&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_007&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_009&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_010&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_002&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_001&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_004&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_003&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_006&quot;/&gt;
+      &lt;class name=&quot;advanceSelenium.TC_DWS_005&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">ChromeTest (10 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest (10 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(20);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'baskinRobbins')
-data.setCell(0, 2, 'advanceSelenium.ToLearnTextNg')
-data.setCell(0, 3, 23384);
+data.setCell(0, 1, 'toCheckWishlistPage')
+data.setCell(0, 2, 'advanceSelenium.TC_DWS_010')
+data.setCell(0, 3, 25301);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'cricbuzz')
-data.setCell(1, 2, 'advanceSelenium.ToLearnTextNg')
-data.setCell(1, 3, 14949);
+data.setCell(1, 1, 'toCheckWishlistPage')
+data.setCell(1, 2, 'advanceSelenium.TC_DWS_010')
+data.setCell(1, 3, 17203);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'baskinRobbins')
-data.setCell(2, 2, 'advanceSelenium.ToLearnTextNg')
-data.setCell(2, 3, 10353);
+data.setCell(2, 1, 'toCheckDigitaldownloadsPage')
+data.setCell(2, 2, 'advanceSelenium.TC_DWS_005')
+data.setCell(2, 3, 7628);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'amazon')
-data.setCell(3, 2, 'advanceSelenium.ToLearnTextNg')
-data.setCell(3, 3, 8997);
+data.setCell(3, 1, 'toCheckShoppingcartPage')
+data.setCell(3, 2, 'advanceSelenium.TC_DWS_009')
+data.setCell(3, 3, 6490);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'amazon')
-data.setCell(4, 2, 'advanceSelenium.ToLearnTextNg')
-data.setCell(4, 3, 8061);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(4, 1, 'toCheckApparel_ShoesPage')
+data.setCell(4, 2, 'advanceSelenium.TC_DWS_004')
+data.setCell(4, 3, 5773);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'toCheckGiftCardsPage')
+data.setCell(5, 2, 'advanceSelenium.TC_DWS_007')
+data.setCell(5, 3, 5710);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'toCheckBooksPage')
+data.setCell(6, 2, 'advanceSelenium.TC_DWS_001')
+data.setCell(6, 3, 5278);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'toCheckElectronicsPage')
+data.setCell(7, 2, 'advanceSelenium.TC_DWS_003')
+data.setCell(7, 3, 4596);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'toCheckBooksPage')
+data.setCell(8, 2, 'advanceSelenium.TC_DWS_001')
+data.setCell(8, 3, 4477);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'toCheckTricentissPage')
+data.setCell(9, 2, 'advanceSelenium.TC_DWS_008')
+data.setCell(9, 3, 4275);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'toCheckShoppingcartPage')
+data.setCell(10, 2, 'advanceSelenium.TC_DWS_009')
+data.setCell(10, 3, 3989);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'toCheckTricentissPage')
+data.setCell(11, 2, 'advanceSelenium.TC_DWS_008')
+data.setCell(11, 3, 3667);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'toCheckApparel_ShoesPage')
+data.setCell(12, 2, 'advanceSelenium.TC_DWS_004')
+data.setCell(12, 3, 3515);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'toCheckGiftCardsPage')
+data.setCell(13, 2, 'advanceSelenium.TC_DWS_007')
+data.setCell(13, 3, 3039);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'toCheckJewelryPage')
+data.setCell(14, 2, 'advanceSelenium.TC_DWS_006')
+data.setCell(14, 3, 2817);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'toCheckComputerPage')
+data.setCell(15, 2, 'advanceSelenium.TC_DWS_002')
+data.setCell(15, 3, 2727);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'toCheckDigitaldownloadsPage')
+data.setCell(16, 2, 'advanceSelenium.TC_DWS_005')
+data.setCell(16, 3, 2415);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'toCheckJewelryPage')
+data.setCell(17, 2, 'advanceSelenium.TC_DWS_006')
+data.setCell(17, 3, 2157);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'toCheckElectronicsPage')
+data.setCell(18, 2, 'advanceSelenium.TC_DWS_003')
+data.setCell(18, 3, 1922);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'toCheckComputerPage')
+data.setCell(19, 2, 'advanceSelenium.TC_DWS_002')
+data.setCell(19, 3, 1876);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
               <span class="suite-total-time">Total running time: 1 minutes</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">cricbuzz</span>
+              <span class="reporter-method-name">toCheckDigitaldownloadsPage</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Cricbuzz got executed</span>
+                <span class="reporter-method-output">TstCase 005 got executed Successfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">amazon</span>
+              <span class="reporter-method-name">toCheckApparel_ShoesPage</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Amazon got executed</span>
+                <span class="reporter-method-output">TstCase 004 got executed Successfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">amazon</span>
+              <span class="reporter-method-name">toCheckTricentissPage</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Amazon got executed</span>
+                <span class="reporter-method-output">TstCase 008 got executed Successfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">baskinRobbins</span>
+              <span class="reporter-method-name">toCheckComputerPage</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">BaskinRobbins got executed</span>
+                <span class="reporter-method-output">TstCase 002 got executed Successfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">baskinRobbins</span>
+              <span class="reporter-method-name">toCheckBooksPage</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">BaskinRobbins got executed</span>
+                <span class="reporter-method-output">TstCase 001 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckShoppingcartPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 009 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckGiftCardsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 007 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckElectronicsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 003 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckJewelryPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 006 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckWishlistPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 010 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckElectronicsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 003 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckBooksPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 001 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckTricentissPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 008 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckGiftCardsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 007 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckDigitaldownloadsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 005 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckShoppingcartPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 009 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckApparel_ShoesPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 004 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckComputerPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 002 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckJewelryPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 006 got executed Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">toCheckWishlistPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TstCase 010 got executed Successfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">advanceSelenium.ToLearnTextNg</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">baskinRobbins</span>
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_009</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(chrome)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_008</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(chrome)</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_010</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(chrome)</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(chrome)</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_007</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(chrome)</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_009</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">56263 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_007</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">56263 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_002</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">56263 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_008</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">56263 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_010</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">56263 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_008</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">baskinRobbins</span>
-                <span class="method-start">23391 ms</span>
+                <span class="method-name">toCheckTricentissPage</span>
+                <span class="method-start">101642 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_010</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">cricbuzz</span>
-                <span class="method-start">33765 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">toCheckWishlistPage</span>
+                <span class="method-start">101689 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_009</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">amazon</span>
-                <span class="method-start">48718 ms</span>
+                <span class="method-name">toCheckShoppingcartPage</span>
+                <span class="method-start">101689 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_002</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">amazon</span>
-                <span class="method-start">57719 ms</span>
+                <span class="method-name">toCheckComputerPage</span>
+                <span class="method-start">104903 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_007</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckGiftCardsPage</span>
+                <span class="method-start">104910 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_008</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">105346 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_009</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">105680 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_002</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">106781 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_008</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">107394 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">107847 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_007</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">107950 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_009</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">108194 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_007</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">111584 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(chrome)</span>
+                <span class="method-start">116204 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_004</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(chrome)</span>
+                <span class="method-start">116472 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_010</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">118928 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_003</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(chrome)</span>
+                <span class="method-start">120240 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_010</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">120576 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_006</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(chrome)</span>
+                <span class="method-start">120644 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_005</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(chrome)</span>
+                <span class="method-start">123915 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_003</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">147476 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_005</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">147643 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_004</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">147643 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_006</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">149440 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_001</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">149711 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_006</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckJewelryPage</span>
+                <span class="method-start">160079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">162238 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_004</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckApparel_ShoesPage</span>
+                <span class="method-start">164757 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_001</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckBooksPage</span>
+                <span class="method-start">165251 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_003</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckElectronicsPage</span>
+                <span class="method-start">165271 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_005</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckDigitaldownloadsPage</span>
+                <span class="method-start">165306 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_006</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">165737 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_003</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">169869 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_004</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">170530 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_001</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">170530 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_004</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">172269 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">172783 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_003</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">172820 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_005</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">172935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">174603 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_007</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(edge)</span>
+                <span class="method-start">179634 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_008</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(edge)</span>
+                <span class="method-start">179634 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(edge)</span>
+                <span class="method-start">179635 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_009</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(edge)</span>
+                <span class="method-start">179635 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_010</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(edge)</span>
+                <span class="method-start">179635 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">208398 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_008</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">208408 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_009</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">208409 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_002</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">208420 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_007</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">208642 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">toCheckGiftCardsPage</span>
+                <span class="method-start">263736 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_008</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckTricentissPage</span>
+                <span class="method-start">264666 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_010</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">toCheckWishlistPage</span>
+                <span class="method-start">264683 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_009</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckShoppingcartPage</span>
+                <span class="method-start">264854 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_002</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckComputerPage</span>
+                <span class="method-start">268604 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_008</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">268945 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_007</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">269448 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_008</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">270882 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_007</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">271032 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_002</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">271334 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_009</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">271345 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">272860 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_009</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">273081 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(edge)</span>
+                <span class="method-start">280188 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_004</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(edge)</span>
+                <span class="method-start">283555 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_003</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(edge)</span>
+                <span class="method-start">283555 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_006</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(edge)</span>
+                <span class="method-start">284400 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_010</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">289990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">291917 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_003</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">302453 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_001</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">306110 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_004</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">307727 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_006</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">307956 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_005</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tolunch(edge)</span>
+                <span class="method-start">310459 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_003</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckElectronicsPage</span>
+                <span class="method-start">315638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">317561 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_005</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">toLogin</span>
+                <span class="method-start">318163 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_003</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">318890 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_001</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckBooksPage</span>
+                <span class="method-start">331436 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_006</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckJewelryPage</span>
+                <span class="method-start">331858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">334678 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_001</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">335915 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_004</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckApparel_ShoesPage</span>
+                <span class="method-start">336404 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_006</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">337485 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">338039 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_004</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">339923 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">341219 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">advanceSelenium.TC_DWS_005</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toCheckDigitaldownloadsPage</span>
+                <span class="method-start">345902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">toLogout</span>
+                <span class="method-start">348318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">toCloseBrowser</span>
+                <span class="method-start">349754 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

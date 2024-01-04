@@ -6,6 +6,7 @@
       <class name="advanceSelenium.ToLearnTextNg">
         <methods>
           <include name="amazon"/>
+          <include name="baskinRobbins"/>
         </methods>
       </class> <!-- advanceSelenium.ToLearnTextNg -->
     </classes>

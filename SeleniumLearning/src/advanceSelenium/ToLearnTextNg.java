@@ -7,7 +7,9 @@ import org.testng.annotations.Test;
 
 public class ToLearnTextNg {
 
-	@Test(priority = 1)
+	//@Test(priority = 1)
+	
+	@Test(enabled = false)
 	public void cricbuzz() {   //test case
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.cricbuzz.com/");
@@ -15,6 +17,7 @@ public class ToLearnTextNg {
 		driver.quit();
 	}
 	
+	//@Test(invocationCount = 2,threadPoolSize = 2)
 	@Test(invocationCount = 2)
 	public void baskinRobbins() {
 		WebDriver driver=new ChromeDriver();

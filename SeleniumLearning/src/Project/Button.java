@@ -14,11 +14,13 @@ public class Button {
 		// TODO Auto-generated method stub
 
 		WebDriver driver = new ChromeDriver();
+		System.out.println("Browser got launched Successfully");
 		driver.manage().window().maximize();
+		System.out.println("Browser got ,maximize Successfully");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 
 		driver.get("https://demoapps.qspiders.com/?scenario=1");
-		
+
 		driver.findElement(By.xpath("//section[text()='Button']")).click();
 		driver.findElement(By.xpath("(//button[text()='Yes'])[1]")).click();
 		driver.findElement(By.xpath("(//button[text()='No'])[2]")).click();

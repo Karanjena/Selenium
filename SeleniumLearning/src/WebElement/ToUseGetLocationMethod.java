@@ -10,14 +10,14 @@ public class ToUseGetLocationMethod {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		ChromeDriver driver=new ChromeDriver();
+		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		
+
 		driver.get("https://www.instagram.com/");
 		Thread.sleep(4000);
 		Point location = driver.findElement(By.xpath("//button[@type='submit']")).getLocation();
-	
-	System.out.println(location);
+
+		System.out.println(location);
 	}
 
 }
