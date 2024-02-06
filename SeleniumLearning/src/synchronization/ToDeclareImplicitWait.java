@@ -14,9 +14,9 @@ public class ToDeclareImplicitWait {
 		
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
-		
-		driver.get("https://www.instagram.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		driver.get("https://www.instagram.com/");
+		
 		driver.findElement(By.name("username")).sendKeys("Karanjena");
 		driver.findElement(By.name("password")).sendKeys("Karan@123");
 	}

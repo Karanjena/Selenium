@@ -21,8 +21,7 @@ public class ToPerformMovetoAction {
 		driver.findElement(By.id("loginclose1")).click();
 		WebElement move = driver.findElement(By.linkText("Dining & Kitchen"));
 		
-		Actions action=new Actions(driver);
-		action.moveToElement(move).perform();
+		
 	}
 
 }
