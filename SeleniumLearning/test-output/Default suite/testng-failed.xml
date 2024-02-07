@@ -3,11 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="advanceSelenium.ToLearnTextNg">
+      <class name="PageObjectModel.Welcome_Text">
         <methods>
-          <include name="baskinRobbins"/>
+          <include name="beforesuite"/>
+          <include name="tolunch"/>
+          <include name="checkout"/>
+          <include name="shopping"/>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="toCloseBrowser"/>
+          <include name="aftersuite"/>
         </methods>
-      </class> <!-- advanceSelenium.ToLearnTextNg -->
+      </class> <!-- PageObjectModel.Welcome_Text -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
