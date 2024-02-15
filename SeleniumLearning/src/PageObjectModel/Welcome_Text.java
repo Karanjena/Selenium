@@ -1,6 +1,5 @@
 package PageObjectModel;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 public class Welcome_Text extends Base_class{
@@ -13,7 +12,7 @@ public class Welcome_Text extends Base_class{
 		RegisterPage r=new RegisterPage(driver);
 		r.getFirstName().sendKeys("Karan");
 		r.getLastName().sendKeys("Jena");
-		r.getEmail().sendKeys("jenakaran5@gmail.com");
+		r.getEmail().sendKeys("jenakaran9@gmail.com");
 		r.getPassword().sendKeys("Karan@000");
 		r.getConfirmPassword().sendKeys("Karan@000");
 		r.getRegisterlink().click();
@@ -26,9 +25,11 @@ public class Welcome_Text extends Base_class{
 		w.getLog_in().click();
 		 
 		Login_Page l=new Login_Page(driver);
-		l.getUsername().sendKeys("jenakaran3@gmail.com");
-		l.getPassword().sendKeys("Karan@000");
-		l.getLoginlink().click();
+		/*
+		 * l.getUsername().sendKeys("jenakaran3@gmail.com");
+		 * l.getPassword().sendKeys("Karan@000"); l.getLoginlink().click();
+		 */
+		l.loginFuction();
 	}
 	
 	@Test(priority = 3)
@@ -38,8 +39,9 @@ public class Welcome_Text extends Base_class{
 		
 		Digital_Download d=new Digital_Download(driver);
 		d.getAddtocart_1().click();
-		d.getAddtocart_2().click();
-		d.getAddtocart_3().click();
+		/*
+		 * d.getAddtocart_2().click(); d.getAddtocart_3().click();
+		 */
 	}
 	
 	@Test(priority = 4)

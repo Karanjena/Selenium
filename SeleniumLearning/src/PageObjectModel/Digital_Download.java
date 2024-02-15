@@ -13,22 +13,24 @@ public class Digital_Download extends Base_Page {
 	@FindBy(xpath="//a[.='3rd Album']/../../../..//input[@value='Add to cart']")
 	private WebElement addtocart_1;
 	
-	@FindBy(xpath="//a[.='Music 2']/../../../..//input[@value='Add to cart']")
-	private WebElement addtocart_2;
-	
-	@FindBy(xpath="(//input[@type='button'])[5]")
-	private WebElement addtocart_3;
+	/*
+	 * @FindBy(xpath="(//a[.='Music 2']/../../..//input[@value='Add to cart'])[1]")
+	 * private WebElement addtocart_2;
+	 * 
+	 * @FindBy(xpath="(//a[.='Music 2']/../../..//input[@value='Add to cart'])[2]")
+	 * private WebElement addtocart_3;
+	 */
 
 	public WebElement getAddtocart_1() {
 		return addtocart_1;
 	}
 	
-	public WebElement getAddtocart_2() {
-		return addtocart_2;
-	}
+	/*
+	 * public WebElement getAddtocart_2() { return addtocart_2; }
+	 */
 
-	public WebElement getAddtocart_3() {
-		return addtocart_3;
-	}
+	/*
+	 * public WebElement getAddtocart_3() { return addtocart_3; }
+	 */
 
 }

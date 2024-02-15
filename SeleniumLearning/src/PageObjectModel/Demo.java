@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 
-public class Login_Page extends Base_Page {
+public class Demo extends Base_Page{
 
-	public Login_Page(WebDriver driver) {
+	public Demo(WebDriver driver) {
 		super(driver);
 	}
 	@FindAll({@FindBy(id="Email"),@FindBy(xpath="//input[@id='Email']")})
@@ -18,7 +18,6 @@ public class Login_Page extends Base_Page {
 	
 	@FindAll({@FindBy(id="Log in"),@FindBy(xpath="//input[@value='Log in']")})
 	private WebElement loginlink;
-
 
 	public WebElement getUsername() {
 		return username;
@@ -34,10 +33,10 @@ public class Login_Page extends Base_Page {
 	
 	//bussiness logic
 	
-		public void loginFuction() {
-			username.sendKeys("jenakaran2@gmail.com");
-			password.sendKeys("Karan@000");
-			loginlink.click();
-		}
+	public void loginFuction() {
+		username.sendKeys("jenakaran2@gmail.com");
+		password.sendKeys("Karan@000");
+		loginlink.click();
+	}
 
 }

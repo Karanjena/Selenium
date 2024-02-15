@@ -8,12 +8,15 @@
           <include name="beforesuite"/>
           <include name="tolunch"/>
           <include name="checkout"/>
+          <include name="register"/>
           <include name="shopping"/>
           <include name="aftertest"/>
           <include name="beforetest"/>
+          <include name="toCloseBrowser"/>
+          <include name="login"/>
+          <include name="digital"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="toCloseBrowser"/>
           <include name="aftersuite"/>
         </methods>
       </class> <!-- PageObjectModel.Welcome_Text -->
