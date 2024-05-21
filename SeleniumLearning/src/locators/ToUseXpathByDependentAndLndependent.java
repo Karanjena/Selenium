@@ -11,7 +11,7 @@ public class ToUseXpathByDependentAndLndependent {
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		driver.get("https://shoppersstack.com/");
+		driver.get("https://www.amazon.in/");
 		Thread.sleep(30000);
 		driver.findElement(By.xpath("//span[text()='SAMSUNG Galaxy Z Flip4 ']/../..//button[@type='button']")).click();
 		

@@ -12,39 +12,37 @@ import org.openqa.selenium.support.ui.Select;
 public class ToHandleTheSingleSelect {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		WebDriver driver=new FirefoxDriver();
+		
+	    //Empty browser Lunch
+		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		
+		//Navigate to FaceBook Application 
 		driver.get("https://www.facebook.com/signup");
-		//dropdown
+		
+		// dropdown
 		WebElement daydropdown = driver.findElement(By.id("day"));
 		WebElement monthdropdown = driver.findElement(By.id("month"));
 		WebElement yeardropdown = driver.findElement(By.id("year"));
-		
-		//select class to hendle
-		Select dayselect=new Select(daydropdown);
-		Select monthselect=new Select(monthdropdown);
-		Select yearselect=new Select(yeardropdown);
-		
-		
-		//call the metthod
+
+		// select class to hendle
+		Select dayselect = new Select(daydropdown);
+		Select monthselect = new Select(monthdropdown);
+		Select yearselect = new Select(yeardropdown);
+
+		// call the metthod
 		dayselect.selectByIndex(10);
 		monthselect.selectByValue("9");
 		yearselect.selectByVisibleText("2001");
-		
-		//To feath all option
+
+		// To feath all option
 		List<WebElement> allmethod = monthselect.getOptions();
-		for(WebElement month:allmethod) {
+		for (WebElement month : allmethod) {
 			System.out.println(month.getText());
 			monthselect.selectByVisibleText(month.getText());
 		}
-		
-		
-		
-		
+
 	}
 
 }

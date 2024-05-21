@@ -9,6 +9,7 @@ public class TotheGetPossitinoftheBrowser {
 		// TODO Auto-generated method stub
 
 		ChromeDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://www.instagram.com/");
 		Point pos = driver.manage().window().getPosition();
 		System.out.println(pos);

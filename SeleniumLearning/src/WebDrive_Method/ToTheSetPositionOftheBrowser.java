@@ -10,8 +10,8 @@ public class ToTheSetPositionOftheBrowser {
 
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.instagram.com/");
-		
-		driver.manage().window().setPosition(new Point(150, 130));
+		Point p=new Point(150,300);
+		driver.manage().window().setPosition(p);
 	}
 
 }
