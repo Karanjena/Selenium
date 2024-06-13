@@ -40,7 +40,7 @@ public class ToHandleTheSingleSelect {
 		List<WebElement> allmethod = monthselect.getOptions();
 		for (WebElement month : allmethod) {
 			System.out.println(month.getText());
-			monthselect.selectByVisibleText(month.getText());
+			monthselect.selectByVisibleText(month.getText());//magic2001
 		}
 
 	}

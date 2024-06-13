@@ -3,7 +3,7 @@ package Assignment;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Task16 {
+public class YouTube {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

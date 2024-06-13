@@ -17,7 +17,7 @@ public class Login {
 		WebDriver driver = new ChromeDriver();
 		System.out.println("Browser got launched Successfully");
 		driver.manage().window().maximize();
-		System.out.println("Browser got ,maximize Successfully");
+		System.out.println("Browser got maximize Successfully");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         //Step:-2
 		driver.get("https://demoapps.qspiders.com/?scenario=1");
