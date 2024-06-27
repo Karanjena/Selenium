@@ -28,7 +28,7 @@ public class FacebookLogin {
 		//step 2:- Enter the url
 	    driver.get("https://www.facebook.com/");
 	    String actualloginPageTitle = driver.getTitle();
-	    System.out.println(actualloginPageTitle);
+	    
 	    if (actualloginPageTitle.equalsIgnoreCase(Execeptedtitle)) {
 			System.out.println("Login Page is Display");
 		} else {

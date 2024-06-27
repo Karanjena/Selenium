@@ -10,7 +10,7 @@ public class TC_DWS_001 extends BaseClass{
 	
 	public void toCheckBooksPage() {
 		driver.findElement(By.partialLinkText("Books")).click();
-		Reporter.log("TstCase 001 got executed Successfully", true);
+		Reporter.log("TestCase 001 got executed Successfully", true);
 		boolean Logo = driver.findElement(By.xpath("//h1[text()='Books']")).isDisplayed();
 		if (Logo == true) {
 			System.out.println("Book Logo is Displayed");

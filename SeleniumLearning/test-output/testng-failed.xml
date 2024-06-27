@@ -3,23 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PageObjectModel.Welcome_Text">
+      <class name="advanceSelenium.TC_DWS_001">
         <methods>
-          <include name="beforesuite"/>
-          <include name="tolunch"/>
-          <include name="checkout"/>
-          <include name="register"/>
-          <include name="shopping"/>
-          <include name="aftertest"/>
-          <include name="beforetest"/>
-          <include name="toCloseBrowser"/>
-          <include name="login"/>
-          <include name="digital"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="aftersuite"/>
+          <include name="toclose"/>
+          <include name="tologin"/>
+          <include name="toCheckBooksPage"/>
+          <include name="Tolaunch"/>
+          <include name="tologout"/>
         </methods>
-      </class> <!-- PageObjectModel.Welcome_Text -->
+      </class> <!-- advanceSelenium.TC_DWS_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

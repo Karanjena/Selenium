@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class ToHendlePromptPopUp {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
 		WebDriver driver=new ChromeDriver();
@@ -23,6 +23,7 @@ public class ToHendlePromptPopUp {
 		
 		Alert promptPopup = driver.switchTo().alert();
 		promptPopup.sendKeys("Karan");
+		Thread.sleep(5000);
 		promptPopup.accept();
 	}
 
