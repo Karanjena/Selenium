@@ -48,8 +48,9 @@ public class Login {
 			System.out.println("Password Failed accept data");
 		}
         //Step:-6
-		WebElement submitbutton = driver.findElement(By.xpath("//button[@type='submit']"));
-		submitbutton.submit();
+		WebElement Login_button = driver.findElement(By.xpath("//button[@type='submit']"));
+		Login_button.submit();
+		
 		
 		//Step:-7
 		System.out.println("Close The Browser");
